@@ -1,0 +1,27 @@
+.page {
+  padding: 50px 80px;
+  margin: 50px;
+  background: white;
+
+  max-width: 800px;
+  min-width: 500px;
+}
+
+#terms-and-conditions h1 {
+  font-size: 34px;
+}
+
+ol {
+  counter-reset: item;
+}
+li {
+  display: block;
+
+  position: relative;
+}
+
+li:before {
+  position: absolute;
+  top: 0;
+  /* margin-left: -50px; */
+}

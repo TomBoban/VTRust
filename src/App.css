@@ -1,0 +1,614 @@
+.main_container {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-image: linear-gradient(to right, #dee2e6, gray);
+}
+
+.tp-1 {
+  font-size: 25px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 8%;
+  width: 100%;
+}
+.tp-2 {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 10%;
+  width: 100%;
+}
+.message {
+  font-size: 13px;
+  font-weight: bolder;
+  margin-top: 2%;
+}
+
+.label_name {
+  display: flex;
+  justify-content: start;
+  margin-left: 4%;
+  color: #3281a8;
+}
+.form_field {
+  width: 40%;
+}
+
+.navbarClass {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbarClass {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_main {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top_header {
+    width: 80%;
+    margin-top: 0%;
+  }
+  .form_field {
+    width: 80%;
+    margin-top: 10%;
+  }
+  .tp-2 {
+    margin-bottom: 0%;
+  }
+}
+
+.bottom_shape {
+  position: relative;
+  right: 150px;
+}
+.img_logo {
+  position: absolute;
+  bottom: 36%;
+  margin-bottom: 120px;
+  animation-name: example;
+  animation-duration: 15s;
+}
+.header {
+  height: 100px;
+}
+.vtrust_logo {
+  width: 200px;
+  position: relative;
+  top: 40px;
+  left: 66px;
+}
+input {
+  border-radius: 20px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 18px !important;
+}
+.form-check {
+  justify-content: space-between;
+  display: flex !important;
+}
+.sbmt_btn {
+  border: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px !important;
+  color: black !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  width: 100%;
+}
+.signin_tab {
+  width: 75%;
+  height: 82%;
+  border-radius: 20px;
+  padding: 20px;
+  background: #b9baba;
+}
+.pro_pic_cont {
+  width: 100px;
+  background: #cecece;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.download {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .download {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+  }
+}
+.donate-button {
+  object-fit: cover !important;
+  object-position: 10% 20% !important;
+  width: 500px !important;
+  height: 70px !important;
+}
+.donate_media {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .donate_media {
+    display: inline-block;
+  }
+  .vtr {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 649px) and (min-width: 500px) {
+  .donate-button {
+    right: 50px;
+    position: relative;
+    top: 180px;
+    height: 50px;
+  }
+}
+@keyframes example {
+  0% {
+    width: 50px;
+    bottom: 15%;
+  }
+  40% {
+    width: 400px;
+    bottom: 15%;
+  }
+  80% {
+    bottom: 15%;
+  }
+  90% {
+    bottom: 36%;
+    /* margin-bottom: 30px; */
+  }
+  100% {
+    width: 300px;
+    bottom: 36%;
+    margin-bottom: 50px;
+  }
+}
+.plan_container {
+  width: 70%;
+  height: 75%;
+  background: #d4d4d4;
+  border-radius: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.plan_page {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #cacaca;
+}
+.plan_head {
+  background: white;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  border-radius: 30px;
+  font-size: x-large;
+  color: #6d6d6d;
+  font-weight: 800;
+  font-variant: all-small-caps;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  left: calc(50% - 100px);
+  right: 50%;
+}
+.plans:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.social_div {
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.slide_text {
+  font-size: x-large;
+  font-weight: 900;
+  color: #ff9a00;
+  text-shadow: 0.1px 0px #565656;
+  flex-wrap: nowrap;
+}
+.home_sticky_text {
+  text-align: center;
+  background: orange;
+  margin-top: 111px;
+
+  margin-left: 7px;
+  padding: 8px;
+  border-radius: 20px;
+  color: brown;
+  font-size: 15px;
+  font-weight: 600;
+  /* position: relative;
+    top: -100px; */
+}
+@media (max-width: 850px) {
+  .home_sticky_text {
+    display: none;
+  }
+}
+@keyframes spin {
+  /* 0%   {transform: rotate(0deg)}
+    0% {transform: rotate(300deg); }
+    100% {transform: rotate(360deg); } */
+  from {
+    transform: rotate(0deg);
+    width: 50px;
+    height: 10px;
+  }
+  to {
+    transform: rotate(360deg);
+    width: 500px;
+    height: 500px;
+  }
+}
+
+#logo_text {
+  animation-name: fadeIn;
+  animation-duration: 7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#rayss {
+  background-size: cover;
+  background-position: center;
+  animation-name: spin;
+  animation-duration: 4s;
+  width: 500px;
+  height: 500px;
+}
+#globe1 {
+  animation-name: turnTopleft;
+  animation-duration: 15s;
+  width: 30px;
+  right: 49%;
+  margin-right: 29px;
+  margin-top: -71px;
+  display: flex;
+  position: absolute;
+
+  /* right: 50%;
+	width: 70px;
+	margin-right: 130px;
+	margin-bottom: 120px; */
+}
+#globe2 {
+  animation-name: turnTopright;
+  animation-duration: 15s;
+  width: 40px;
+  left: 50%;
+  margin-left: 11px;
+  margin-top: -67px;
+  display: flex;
+  position: absolute;
+  /* width: 100px;  
+	left: 50%;
+	margin-left: 130px;
+	margin-bottom: 120px; */
+}
+#globe3 {
+  animation-name: turntop;
+  animation-duration: 15s;
+  width: 40px;
+  display: flex;
+  position: absolute;
+
+  bottom: 46%;
+
+  margin-bottom: 177px;
+
+  /* width: 100px;  
+	bottom: 50%;
+	margin-bottom: 150px; */
+}
+#globe4 {
+  animation-name: turnLeftbottom;
+  animation-duration: 15s;
+  width: 40px;
+  display: flex;
+  position: absolute;
+  right: 51%;
+  margin-right: 16px;
+  margin-top: -129px;
+
+  /* width: 100px;  
+	right: 50%;
+	margin-right: 120px;
+	margin-top: 140px; */
+}
+#globe5 {
+  animation-name: turnRightbottom;
+  animation-duration: 15s;
+  width: 40px;
+  display: flex;
+  position: absolute;
+  left: 51%;
+  margin-left: 9px;
+  margin-top: -128px;
+  /* width: 100px;  
+	left: 50%;
+	margin-left: 120px;
+	margin-top: 140px; */
+}
+
+@keyframes turnTopleft {
+  0% {
+    margin: 0px;
+  }
+  40% {
+    margin: 0px;
+  }
+  80% {
+    right: 50%;
+    width: 70px;
+    margin-right: 130px;
+    margin-bottom: 120px;
+  }
+  100% {
+    right: 50%;
+    margin-right: 37px;
+    margin-top: -158px;
+  }
+}
+@keyframes turnTopright {
+  0% {
+    margin: 0px;
+  }
+  40% {
+    margin: 0px;
+  }
+  80% {
+    width: 100px;
+    left: 50%;
+    margin-left: 130px;
+    margin-bottom: 120px;
+  }
+  100% {
+    width: 40px;
+    left: 50%;
+    margin-left: 31px;
+    margin-top: -160px;
+  }
+}
+@keyframes turntop {
+  0% {
+    margin: 0px;
+  }
+  40% {
+    margin: 0px;
+  }
+  80% {
+    width: 100px;
+    bottom: 36%;
+    margin-bottom: 150px;
+  }
+  100% {
+    bottom: 36%;
+    margin-bottom: 177px;
+  }
+}
+@keyframes turnLeftbottom {
+  0% {
+    margin: 0px;
+  }
+  40% {
+    margin: 0px;
+  }
+  80% {
+    width: 100px;
+    right: 50%;
+    margin-right: 120px;
+    margin-top: 140px;
+  }
+  100% {
+    right: 50%;
+    margin-right: 16px;
+    margin-top: -104px;
+  }
+}
+@keyframes turnRightbottom {
+  0% {
+    margin: 0px;
+  }
+  40% {
+    margin: 0px;
+  }
+  80% {
+    width: 100px;
+    left: 50%;
+    margin-left: 120px;
+    margin-top: 140px;
+  }
+  100% {
+    left: 50%;
+    margin-left: 9px;
+    margin-top: -103px;
+  }
+}
+.file_up {
+  background-color: indigo;
+  color: white;
+  padding: 0.2rem;
+  font-family: sans-serif;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .sign_up_cont {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.modal_body {
+  height: 100%;
+  padding-bottom: 0 !important;
+}
+.modal_header {
+  background-color: silver;
+}
+.modal_title {
+  font-size: 30px !important;
+  font-weight: bolder !important;
+}
+.button_close {
+  width: 100%;
+  background-color: silver !important ;
+  color: black !important;
+  border-radius: 50px !important;
+  margin-top: 1% !important;
+}
+.button_submit {
+  background-color: #007bff !important;
+  width: 100%;
+  border-radius: 50px !important;
+}
+.form_control {
+  background-color: silver !important;
+}
+
+.form_label {
+  font-size: 16px !important;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.mute_text {
+  margin-top: 2% !important;
+  margin-left: 2% !important;
+  background-color: lightgrey !important;
+  color: #000 !important;
+  font-weight: bolder !important;
+}
+
+.modal_footer {
+  border: none !important;
+  padding-top: 0 !important;
+}
+.unver_cont {
+  margin-top: 7%;
+  margin-bottom: 8%;
+}
+.verified_message {
+  font-size: 18px;
+  background-color: peachpuff;
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 1rem;
+  margin-bottom: 3%;
+  font-family: sans-serif !important;
+}
+.form_container {
+  margin-top: 5%;
+}
+.form_label2 {
+  font-size: 16px !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.ver_button {
+  width: 110px !important;
+}
+.ver_button_plan {
+  width: 120px !important;
+}
+.bottom_container {
+  margin-top: 5%;
+}
+
+.MuiFormHelperText-root {
+  color: red !important;
+}
+
+.optButton {
+  width: 100% !important;
+  background-color: #fbb03b !important;
+  border-radius: 40px !important;
+  height: 35px !important;
+}
+.optButton:hover {
+  background-color: transparent;
+  box-shadow: none;
+  color: offwhite;
+}
+.nextSubmit {
+  width: 100% !important;
+  background-color: #fbb03b !important;
+  border-radius: 40px !important;
+  margin-top: 5% !important;
+  height: 30px !important;
+}
+.nextSubmit :hover {
+  width: 100% !important;
+  background-color: #fbb03b !important;
+  border-radius: 40px !important;
+}
+
+.otpTimer {
+  margin-top: 3% !important;
+  text-decoration: underline;
+}
+.signature {
+  padding-left: 18px;
+  color: red;
+}
+.profilePic {
+  color: red;
+  font-size: 12px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.ImageCrop {
+  margin-top: 80px;
+  margin-left: -25px;
+}
+.phone_style .form-control {
+  width: 97% !important;
+  color: black !important;
+  height: 55px !important;
+
+  margin-left: 25px !important;
+}
+.Phone_error {
+  color: red;
+}
+.phoneInput {
+  margin-left: 20px !important;
+}
+
+.upiImg {
+  width: 60%;
+}
